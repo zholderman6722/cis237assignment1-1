@@ -1,4 +1,5 @@
 # Assignment 1 - Review of C# Basic Concepts and Introduction to Git
+## Due 9-20-2016
 
 ## Author
 
@@ -11,15 +12,15 @@ Create a C# console program to work with a .CSV wine list. The program should co
 3. Allow the user to search for an item by the item id, and print out the item if found. Error message if not. (Linear search is fine)
 4. Allow the user to add a new wine item to the list.
 
-Create a basic class called WineItem. This class should have the following variables, properties, constuctors, methods, etc.
+Create a basic class called WineItem. This class should have the following variables, properties, constructors, methods, etc.
 * Variables: id, description, pack
-* Constuctors: default, 3 parameter constuctor
+* Constructors: default, 3 parameter constructor
 * Public Methods: ToString (Override)
 * Private Methods: Your choice
 
-Create a basic class called WineItemCollection. This class should have the following variables, properties, constuctors, methods, etc.
-* Variables: wineItems (Array of WineItem)
-* Constuctors: Your choice
+Create a basic class called WineItemCollection. This class should have the following variables, properties, constructors, methods, etc.
+* Variables: wineItems (Array of type WineItem. It must be an array. No List)
+* Constructors: Your choice
 * Public Methods: Your choice
 * Private Methods: Your choice
 
@@ -27,9 +28,17 @@ Create a basic class called User Interface. This class should be implemented how
 
 Create a basic class called CSVProcessor. This class should be in charge of reading in a CSV file and creating the item list. It may also want to handle ensuring the CSV can only be read in once.
 
+Documentation should include the following for this, and all future assignments:
+* Comments at the top of each source code file with:
+  * Your Name
+  * Class
+  * Date
+* A comment at the top of each method describing what it does.
+* Comments in the rest of the code where it isn't obvious what is going on.
+
 Solution Requirements:
 
-* 4 classes (Main, WineItem, WineItemCollection, CSVProcessor, UserInterface)
+* 5 classes (Main, WineItem, WineItemCollection, CSVProcessor, UserInterface)
 * A loop
 * An control structure (if/then statement, switch statement)
 * An array [contents will be type WineItem]
@@ -50,8 +59,26 @@ Suggestion/Hints:
 * Remember to handle the case when the user has entered no information. You can print a simple message (i.e., “No data entered” or something else). It just needs to be obvious to the user something has happened.
 * Remember to handle (gracefully) cases where the user enters something incorrectly.
 
+## Grading
+| Feature             | Points |
+|---------------------|--------|
+| Load CSV            | 10     |
+| Load CSV Only Once  | 5      |
+| Print List          | 10     |
+| Search              | 10     |
+| Add New Item        | 10     |
+| ToString Override   | 10     |
+| CSV Processor Class | 5      |
+| UserInterface       | 5      |
+| WineItem            | 5      |
+| WineItemCollection  | 5      |
+| A Loop              | 5      |
+| Control Structure   | 5      |
+| WineItem Array      | 5      |
+| A Method            | 5      |
+| Documentation       | 5      |
+| **Total**           | **100**|
+
 ## Outside Resources Used
 
 ## Known Problems, Issues, And/Or Errors in the Program
-
-
