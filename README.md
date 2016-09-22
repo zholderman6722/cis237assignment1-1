@@ -1,7 +1,7 @@
 # Assignment 1 - Review of C# Basic Concepts and Introduction to Git
 ## Due 9-20-2016
 
-## Author
+## Zachery Holderman
 
 ## Description
 
@@ -80,5 +80,7 @@ Suggestion/Hints:
 | **Total**           | **100**|
 
 ## Outside Resources Used
-
+Stack OverFlow help with collections/lists
+referenced class assignment 1
 ## Known Problems, Issues, And/Or Errors in the Program
+Unable to get the linear search completed and Unable to get the collections/ add wine item working.
